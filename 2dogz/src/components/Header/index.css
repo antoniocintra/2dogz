@@ -1,0 +1,74 @@
+ @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+ 
+ *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.navbar {
+    display:flex;
+    height: 100px;
+    align-items:center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #EDDFA8;
+    list-style: none;
+    border: 1px solid #ddd;
+
+}
+
+.logo{
+    width: 100px;
+    height:auto;
+    border-radius: 8px;
+    align-items: center;
+
+}
+
+.logo-container {
+    padding: 0px 10px;
+    margin-right: 30px;
+}
+
+.menu-items {
+    display:flex;
+}
+
+.menu-items li {
+    list-style:none;
+    cursor:pointer;
+    align-items: center;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #6D54A3;
+    padding: 0px 15px;
+position: relative; /* Necessário para o pseudo-elemento */
+    transition: color 0.3s ease;
+}
+
+.menu-items li:hover {
+    color: #4A2D78; /* Roxo mais escuro ao passar o mouse */
+}
+
+.hover-icon {
+    font-size: 16px;
+    color: #EFAE23; /* Roxo */
+    position: absolute;
+    top: 0px; /* Eleva a patinha acima do texto */
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.5s ease, top 0.5s ease;
+}
+
+.menu-items li {
+    position: relative; /* Necessário para o posicionamento absoluto do ícone */
+}
+
+.menu-items li:hover .hover-icon {
+    opacity: 1;
+    top: -25px; /* Move um pouco para baixo ao aparecer */
+}
+
+
