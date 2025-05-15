@@ -15,6 +15,10 @@ function Banner() {
         <button className="banner-button">Saiba Mais</button>
       </div>
     </div>
+    
+
+    
+
   );
 }
 
