@@ -2,6 +2,7 @@ import "./index.css";
 import Header from "../components/Header/Header";
 import Banner from "../components/Banner/Banner";
 import Dog from "../assets/cute-dog.jpg";
+import Bowl from "../assets/svg/bowl-red.svg";
 
 function HomePage() {
   return (
@@ -10,8 +11,15 @@ function HomePage() {
       <Banner />
       <main className="container">
         <section className="content">
+          
+           
+         
           <img src={Dog} alt="Cachorro fofo" className="image" />
           <div className="text">
+            <div className="bowl-wrapper">
+
+             <img className="bowl-image" src= {Bowl} alt=" uma vasilha vermelha com ração de cachorro" />
+            </div>
             <hr />
             <h1>Bem-vindo à 2Dogz!</h1>
             <p>

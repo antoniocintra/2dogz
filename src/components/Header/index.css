@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..950&display=swap');
  
  *{
     padding: 0px;
@@ -11,9 +11,9 @@
     align-items:center;
     justify-content: center;
     gap: 20px;
-    background-color: #EDDFA8;
+    background-color: #2D0A53;
     list-style: none;
-    border: 1px solid #ddd;
+   
 
 }
 
@@ -41,21 +41,20 @@
     font-family: "Quicksand", sans-serif;
     font-weight: 600;
     font-size: 18px;
-    color: #6D54A3;
+    color: #EFAE23;
     padding: 0px 15px;
-position: relative; /* Necessário para o pseudo-elemento */
-    transition: color 0.3s ease;
+    transition: color 0.5s ease;
 }
 
 .menu-items li:hover {
-    color: #4A2D78; /* Roxo mais escuro ao passar o mouse */
+    color: #6AC287; 
 }
 
 .hover-icon {
     font-size: 16px;
-    color: #EFAE23; /* Roxo */
+    color: #EFAE23; 
     position: absolute;
-    top: 0px; /* Eleva a patinha acima do texto */
+    top: 0px; 
     left: 50%;
     transform: translateX(-50%);
     opacity: 0;
@@ -63,12 +62,12 @@ position: relative; /* Necessário para o pseudo-elemento */
 }
 
 .menu-items li {
-    position: relative; /* Necessário para o posicionamento absoluto do ícone */
+    position: relative; 
 }
 
 .menu-items li:hover .hover-icon {
     opacity: 1;
-    top: -25px; /* Move um pouco para baixo ao aparecer */
+    top: -25px; 
 }
 
 
