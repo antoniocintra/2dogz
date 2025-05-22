@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'gotham';
+  src: url('./assets/fonts/gotham/GothamFontsFamily') ;
+  font-weight:normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'chicken_pie';
+  src: url('./assets/fonts/chicken_pie');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

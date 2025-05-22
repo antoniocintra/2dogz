@@ -3,6 +3,7 @@ import Header from "../components/Header/Header";
 import Banner from "../components/Banner/Banner";
 import Dog from "../assets/cute-dog.jpg";
 import Bowl from "../assets/svg/bowl-red.svg";
+import Footer from "../components/Footer/Footer";
 
 function HomePage() {
   return (
@@ -36,7 +37,8 @@ function HomePage() {
             <hr className="bottom-line" />
           </div>
         </section>
-      </main>
+       </main>
+      <Footer/>
     </>
   );
 }

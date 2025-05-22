@@ -1,21 +1,9 @@
-@font-face {
-  font-family: 'gotham';
-  src: url('../assets/fonts/gotham/GothamFontsFamily') ;
-  font-weight:normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'chicken_pie';
-  src: url('../assets/fonts/chicken_pie');
-  font-weight: normal;
-  font-style: normal;
-}
 
 .container {
   height: 100vh;
   display: flex;
-  justify-content: center; /* Centraliza horizontalmente */
-  align-items: center;     /* Centraliza verticalmente */
+  justify-content: center; 
+  align-items: center;    
 }
 
 .content {
@@ -26,8 +14,6 @@
   padding: 40px 20px;
   max-width: 1200px;
 }
-
-
 
 .image {
   max-width: 400px;
@@ -57,27 +43,20 @@
     font-size: 20px;
     text-align: justify;
     line-height:40px;
-    
-
 }
-
-  
-
 
 hr {
  
     color: #C5C5C5;
 }
 
-
-
 .bowl-wrapper {
   display: flex;
-  align-items: center; /* Alinha vasilha e linha */
+  align-items: center; 
   justify-content: center;
   
 }
 
 .bowl-image {
-  max-width: 80px; /* Ajuste conforme necessário */
+  max-width: 80px; 
 }
