@@ -15,4 +15,22 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
+}
+
+a{
+  text-decoration:none;
+  color: inherit;
+}
+
+a:visited {
+  color: inherit;
+}
+
+a:active {
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
 }
