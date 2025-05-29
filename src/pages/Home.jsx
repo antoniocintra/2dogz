@@ -6,6 +6,7 @@ import Bowl from "../assets/svg/bowl-red.svg";
 import Footer from "../components/Footer/Footer";
 import dogTitle from "../assets/PNG/dogTitle.png";
 import dogTitle1 from "../assets/PNG/dogTitle1.png";
+import Contact from "../components/Contact/Contact";
 
 
 import dog1 from "../assets/dog1.jpg";
@@ -110,6 +111,7 @@ function HomePage() {
           </div>
         </div>
       </div>
+      <Contact/>
       <Footer />
     </>
   );

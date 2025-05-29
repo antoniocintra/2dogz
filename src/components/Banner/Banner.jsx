@@ -16,9 +16,6 @@ function Banner() {
       </div>
     </div>
     
-
-    
-
   );
 }
 

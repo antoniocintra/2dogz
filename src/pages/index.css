@@ -112,7 +112,7 @@ hr {
 
 .card-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 👉 2 cards por linha fixo */
+  grid-template-columns: repeat(2, 1fr); 
   gap: 48px;
   justify-items: center;
 }
